@@ -1,0 +1,88 @@
+$date
+	Tue Sep  5 21:44:38 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux41_tb $end
+$var wire 1 ! out $end
+$var reg 4 " i [3:0] $end
+$var reg 2 # s [1:0] $end
+$scope module yu $end
+$var wire 4 $ i [3:0] $end
+$var wire 2 % s [1:0] $end
+$var wire 1 & x2 $end
+$var wire 1 ' x1 $end
+$var wire 1 ! out $end
+$scope module hj $end
+$var wire 2 ( i [1:0] $end
+$var wire 1 ) sel $end
+$var reg 1 ' out $end
+$upscope $end
+$scope module jk $end
+$var wire 2 * i [1:0] $end
+$var wire 1 + sel $end
+$var reg 1 & out $end
+$upscope $end
+$scope module lp $end
+$var wire 2 , i [1:0] $end
+$var wire 1 - sel $end
+$var reg 1 ! out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0-
+b10 ,
+0+
+b0 *
+0)
+b1 (
+1'
+0&
+b0 %
+b1 $
+b0 #
+b1 "
+0!
+$end
+#4
+1!
+b11 ,
+1&
+1-
+b11 (
+b11 *
+b1 #
+b1 %
+b1111 "
+b1111 $
+#8
+0!
+0'
+b0 ,
+0&
+1)
+1+
+0-
+b0 (
+b1 *
+b10 #
+b10 %
+b100 "
+b100 $
+#12
+b1 ,
+1&
+1-
+b10 *
+b11 #
+b11 %
+b1000 "
+b1000 $
+#16

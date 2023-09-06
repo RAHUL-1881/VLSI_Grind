@@ -1,0 +1,36 @@
+$date
+	Thu Aug 31 10:03:08 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module comp_2_tb $end
+$var wire 4 ! out [3:0] $end
+$var reg 4 " a [3:0] $end
+$scope module gh $end
+$var wire 4 # a [3:0] $end
+$var reg 4 $ out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1011 $
+b101 #
+b101 "
+b1011 !
+$end
+#20
+b110 !
+b110 $
+b1010 "
+b1010 #
+#40
+b1001 !
+b1001 $
+b111 "
+b111 #
+#80

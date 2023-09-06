@@ -1,0 +1,47 @@
+$date
+	Mon Sep  4 21:21:44 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux21_if_tb $end
+$var wire 1 ! out $end
+$var reg 2 " i [1:0] $end
+$var reg 1 # sel $end
+$scope module gh $end
+$var wire 2 $ i [1:0] $end
+$var wire 1 # sel $end
+$var reg 1 ! out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 $
+0#
+b1 "
+1!
+$end
+#1
+1#
+b10 "
+b10 $
+#2
+0!
+b1 "
+b1 $
+#3
+0#
+b10 "
+b10 $
+#4
+1!
+b1 "
+b1 $
+#5
+b11 "
+b11 $
+#6
