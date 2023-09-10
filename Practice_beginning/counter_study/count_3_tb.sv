@@ -5,7 +5,7 @@ wire [2:0]q;
 count_3 yu (clk,q);
 
 initial begin
-    clk = 0; #70
+    clk = 0; #65
     $finish;
     $dumpfile("count_3_tb.vcd");
     $dumpvars;
