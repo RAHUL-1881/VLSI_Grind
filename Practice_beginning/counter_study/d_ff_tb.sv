@@ -7,7 +7,7 @@ initial begin
     clk = 0; d = 1; #15
     d = 0; #15
     d = 1; #15
-    d = 1; #15
+    d = 0; #15
     d = 1; #15
     d = 1; #25
 $finish;
