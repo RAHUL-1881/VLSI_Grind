@@ -1,0 +1,83 @@
+$date
+	Tue Sep 12 23:02:48 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module pre_clr_tb $end
+$var wire 1 ! qbar $end
+$var wire 1 " q $end
+$var reg 1 # clk $end
+$var reg 1 $ clr $end
+$var reg 1 % j $end
+$var reg 1 & k $end
+$var reg 1 ' pre $end
+$scope module gh $end
+$var wire 1 # clk $end
+$var wire 1 $ clr $end
+$var wire 1 % j $end
+$var wire 1 & k $end
+$var wire 1 ' pre $end
+$var reg 1 " q $end
+$var reg 1 ! qbar $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1'
+0&
+0%
+1$
+0#
+0"
+1!
+$end
+#5
+1#
+#10
+0#
+1%
+#15
+0!
+1"
+1#
+#20
+1!
+0"
+0#
+0$
+#22
+1$
+#25
+0!
+1"
+1#
+#30
+0#
+#34
+1&
+#35
+1!
+0"
+1#
+#40
+0#
+#44
+0%
+#45
+1#
+#50
+0#
+#54
+1%
+#55
+0!
+1"
+1#
+#60
+0#
+#64
