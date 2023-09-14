@@ -13,9 +13,9 @@ output reg q = 0, qbar = 1;
     end
  
     always @ (*) begin 
-        if (pre == 0 && clr == 1)
+        if (pre == 0)
         q = 1;
-        else if (pre == 1 && clr == 0)
+        else if (clr == 0)
         q = 0;
         else
         q = q;

@@ -1,0 +1,40 @@
+$date
+	Thu Sep 14 23:05:26 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module majority3 $end
+$var wire 3 ! i [2:0] $end
+$var wire 1 " out $end
+$upscope $end
+$scope module majority3_tb $end
+$var reg 3 # i [2:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 #
+x"
+bz !
+$end
+#4
+b1 #
+#8
+b10 #
+#12
+b11 #
+#16
+b100 #
+#20
+b101 #
+#24
+b110 #
+#28
+b111 #
+#32
+b0 #
+#36
