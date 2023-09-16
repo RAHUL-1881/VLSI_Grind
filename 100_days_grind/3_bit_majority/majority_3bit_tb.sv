@@ -2,6 +2,8 @@ module majority3_tb ();
    reg [2:0]i;
    wire out;
 
+   majority3 yu (.i(i),.out(out));
+
    initial begin
     i = 3'b000; #4
     i = 3'b001; #4
