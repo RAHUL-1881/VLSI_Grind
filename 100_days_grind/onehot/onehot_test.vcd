@@ -1,0 +1,27 @@
+$date
+	Thu Sep 28 23:26:25 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module onehot_tb $end
+$var wire 16 ! out [15:0] $end
+$var reg 16 " in [15:0] $end
+$var integer 32 # i [31:0] $end
+$scope module gh $end
+$var wire 16 $ in [15:0] $end
+$var wire 16 % out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000000000000000 %
+b1111 $
+b10000 #
+b1111 "
+b1000000000000000 !
+$end
