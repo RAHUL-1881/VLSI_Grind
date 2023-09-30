@@ -10,7 +10,7 @@ initial begin
    for(i = 0; i<16; i = i + 1)
    begin
        in = i;
-       $display("%b",out);
+       $display("%b",out)
    end
 end
 
