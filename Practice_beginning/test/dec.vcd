@@ -1,0 +1,30 @@
+$date
+	Sun Oct  1 16:17:59 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module dec_tb $end
+$var wire 32 ! decimal_out [31:0] $end
+$var reg 32 " binary_in [31:0] $end
+$scope module gh $end
+$var wire 32 # binary_in [31:0] $end
+$var wire 32 $ decimal_out [31:0] $end
+$var integer 32 % decimal [31:0] $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100000 &
+b11111111111111111111111111111111 %
+b11111111111111111111111111111111 $
+b11111111111111111111111111111111 #
+b11111111111111111111111111111111 "
+b11111111111111111111111111111111 !
+$end
+#5
