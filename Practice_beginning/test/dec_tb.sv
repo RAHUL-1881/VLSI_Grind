@@ -5,7 +5,7 @@ wire [31:0]decimal_out;
 dec gh (.binary_in(binary_in),.decimal_out(decimal_out));
 
 initial begin
-    binary_in = {32{1'b1}}; #5
+    binary_in = {32'd1234}; #5
     $finish;
 end
 
