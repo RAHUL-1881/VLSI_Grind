@@ -1,17 +1,20 @@
-module bi_bcd();
-reg [31:0] binary_in;
-wire [31:0]decimal_out;
+module bi_bcd_tb();
+reg [31:0]binary_in;
+wire [31:0]bcd_out;
 
-dec gh (.binary_in(binary_in),.decimal_out(decimal_out));
+bi_bcd gh (.binary_in(binary_in),.bcd_out(bcd_out));
 
 initial begin
-    binary_in = {32'd1234}; #5
+    binary_in = 32'b00000000000000000000000000001111; #5
+    binary_in = 32'b00000000000000000000000000011111; #5
+    binary_in = 32'b00000000000000000000000000111111; #5
+    binary_in = 32'b00000000000000000000000001111111; #5
+    binary_in = 32'b00000000000000000000000000001111; #10
     $finish;
 end
 
 initial begin
-    $dumpfile("dec.vcd");
+    $dumpfile("bi_bcd_test.vcd");
     $dumpvars;
 end
-
 endmodule

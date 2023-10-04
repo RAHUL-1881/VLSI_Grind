@@ -12,10 +12,14 @@ module bi_bcd(
     for (i = 0; i < 32; i = i + 1) begin
       decimal = decimal + (binary_in[i] * 2**i);
     end
+
+    // Convert the decimal value to BCD
     for (i = 0; i < 8; i = i + 1) begin
-    bcd[i] = decimal_out[31 - 4 * i : 31 - 4 * i - 3];
+      digit[i] = decimal % 10;
+      decimal = decimal / 10;
+    end
   end
-  end
-    
-    assign decimal_out = decimal;
+
+  // Assign the BCD value to the output
+  assign bcd_out = {digit[7],digit[6],digit[5],digit[4],digit[3],digit[2],digit[1],digit[0]};
 endmodule

@@ -1,0 +1,58 @@
+$date
+	Wed Oct  4 23:51:58 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module bi_bcd_tb $end
+$var wire 32 ! bcd_out [31:0] $end
+$var reg 32 " binary_in [31:0] $end
+$scope module gh $end
+$var wire 32 # binary_in [31:0] $end
+$var wire 32 $ bcd_out [31:0] $end
+$var integer 32 % decimal [31:0] $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 &
+b0 %
+b10101 $
+b1111 #
+b1111 "
+b10101 !
+$end
+#5
+b110001 !
+b110001 $
+b0 %
+b1000 &
+b11111 "
+b11111 #
+#10
+b1100011 !
+b1100011 $
+b0 %
+b1000 &
+b111111 "
+b111111 #
+#15
+b100100111 !
+b100100111 $
+b0 %
+b1000 &
+b1111111 "
+b1111111 #
+#20
+b10101 !
+b10101 $
+b0 %
+b1000 &
+b1111 "
+b1111 #
+#30
