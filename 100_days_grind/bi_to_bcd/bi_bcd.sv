@@ -21,5 +21,5 @@ module bi_bcd(
   end
 
   // Assign the BCD value to the output
-  assign bcd_out = {digit[7],digit[6],digit[5],digit[4],digit[3],digit[2],digit[1],digit[0]};
+  assign bcd_out = {digit[7],digit[6],digit[4],digit[5],digit[3],digit[2],digit[1],digit[0]};
 endmodule
