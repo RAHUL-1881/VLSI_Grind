@@ -1,9 +1,7 @@
-module dff_task ();
-  
-
+module dff_ta();
   task dff_y;
-  reg d;
-  reg q ;
+ reg d;
+  reg q;
   reg qbar;
     begin
         if (d == 0)begin
@@ -17,5 +15,4 @@ module dff_task ();
         end
     end
   endtask
-
 endmodule
